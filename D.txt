@@ -1,0 +1,12 @@
+ejerd:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+        
+    Y is 5*C+3*B^2-(A+B/C)^7,
+    display(Y).
+

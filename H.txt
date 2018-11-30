@@ -1,0 +1,12 @@
+ejerh:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+       
+    Y is 8*A*B^2-(2*C+3)/(D+7)^4+1/3,
+    display(Y).
+

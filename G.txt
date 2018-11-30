@@ -1,0 +1,11 @@
+ejerg:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de D:'),
+    read(D),
+    display('Introduce el valor de E:'),
+    read(E),
+        
+    Y is (3-D*E)/(4-5*A/D)+7/(A-B^2),
+    display(Y).

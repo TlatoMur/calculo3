@@ -1,0 +1,12 @@
+ejerf:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de E:'),
+    read(E),
+        
+    Y is ((A+3*E-7*C^2*B)*4)/(5*(B-C)^2),
+    display(Y).
+
